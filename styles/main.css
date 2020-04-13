@@ -59,15 +59,51 @@ nav {
   background: #1e2434;
   color: white;
   box-shadow: 0 2px 3px #4e555c, 0 5px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
 }
 
 main {
   padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 /***    CHAT    ***/
+#chat {
+  height: calc(100vh - 100px);
+  padding: 60px 10px 0px 10px;
+  display:flex;
+  flex-direction: column;
+  overflow-y: scroll;
+
+}
+
 
 /*** INPUT BAR ***/
+#input-wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 50px;
+  background: #2d354d;
+  padding: 10px 20px;
+  display: flex;
+}
+
+#message-input {
+  width: calc(100vw - 100px);
+  height: 30px;
+  margin: 0px 16px;
+  padding: 2px 16px 2px 8px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+#message_send_img {
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+}
 
 /***  MESSAGE  ***/
 .message {
