@@ -1,4 +1,4 @@
-/******** CSS RESET *********/
+/************ CSS RESET *************/
 
 html {
   box-sizing: border-box;
@@ -36,7 +36,8 @@ img {
   height: auto;
 }
 
-/******** TYPOGRAPHY *********/
+/************ TYPOGRAPHY *************/
+
 h1,
 h2 {
   font-family: "Roboto", sans-serif;
@@ -54,7 +55,8 @@ p {
   letter-spacing: 0.2px;
 }
 
-/********  STYLES  **********/
+/************************  STYLES  **************************/
+
 nav {
   background: #1e2434;
   color: white;
@@ -68,18 +70,18 @@ main {
   flex-direction: column;
 }
 
-/***    CHAT    ***/
+/************    CHAT    ************/
+
 #chat {
   height: calc(100vh - 100px);
   padding: 60px 10px 0px 10px;
   display:flex;
   flex-direction: column;
   overflow-y: scroll;
-
 }
 
+/************* INPUT BAR *************/
 
-/*** INPUT BAR ***/
 #input-wrapper {
   position: fixed;
   bottom: 0;
@@ -105,7 +107,8 @@ main {
   padding: 5px;
 }
 
-/***  MESSAGE  ***/
+/**********  MESSAGE  **********/
+
 .message {
   margin: 8px;
   padding: 12px 12px 18px 52px;
@@ -118,6 +121,11 @@ main {
   box-shadow: 0 2px 3px #b0b6bb, 0 5px 5px rgba(0, 0, 0, 0.1);
   background: #fdf4eb; /* light orange */
   /* background: #EAF3F8; */ /* light blue */
+}
+
+.align-right {
+  background: #EAF3F8;
+  align-self: flex-end;
 }
 
 .headline {
