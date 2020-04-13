@@ -107,7 +107,30 @@ main {
 
 /***  MESSAGE  ***/
 .message {
+  margin: 8px;
+  padding: 12px 12px 18px 52px;
+  width: 60%;
+  max-width: 300px;
+  min-width: 100px;
+  border-radius: 8px;
+  word-break: break word;
+  line-height: 16px;
   box-shadow: 0 2px 3px #b0b6bb, 0 5px 5px rgba(0, 0, 0, 0.1);
   background: #fdf4eb; /* light orange */
   /* background: #EAF3F8; */ /* light blue */
+}
+
+.headline {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.avatar {
+  width: 35px;
+  float: left;
+  margin-left: -45px;
+}
+
+.message p {
+  font-size: 12px;
 }
